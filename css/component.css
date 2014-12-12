@@ -313,4 +313,8 @@
 		display: inline-flex;
 		font-size 40%;
 	}
+	
+	#ha-header {
+		height:200px;
+	}
 }
