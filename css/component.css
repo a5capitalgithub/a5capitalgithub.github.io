@@ -298,3 +298,19 @@
 		font-size: 60%;
 	}
 }
+
+@media screen and (max-width: 400px) {
+	.cl-effect-1 a::before {
+		margin-right: 0px;
+		padding: 2px;
+	}
+
+	.cl-effect-1 a::after {
+		margin-left: 0px;
+		padding: 2px;
+	}
+	.ha-header nav {
+		display: inline-flex;
+		font-size 40%;
+	}
+}
