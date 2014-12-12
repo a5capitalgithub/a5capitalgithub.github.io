@@ -1,0 +1,290 @@
+/***********************/
+/*                     */
+/*     Main heading    */
+/*                     */
+/***********************/
+
+.ha-header h1 span {
+  width: 307px;
+  height: 225px;
+  display:block;
+  text-indent:-9999px;
+  background:url("../images/logo.png");
+}
+
+nav {
+  font-family: 'Ubuntu', sans-serif; font-weight: 400;
+}
+
+/***********************/
+/*                     */
+/*      Hero unit      */
+/*                     */
+/***********************/
+
+#main {
+  background: url("../images/real-estate-gradient.jpg") center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 680px;
+  padding-top: 240px;
+  margin-bottom: 0 !important;
+}
+
+#main > #main-text {
+  height: 100%;
+  text-align: center;
+  display: table;
+  width: 100%;
+}
+
+#main > #main-text h1 {
+  vertical-align: middle;
+  display: table-cell;
+  text-align: center;
+  color: white;
+  text-shadow: 0px 3px 10px #333;
+  line-height: 1.45em;
+}
+
+#main span.welcome {
+  font-family: 'Asap', sans-serif; font-weight: 400;
+}
+
+#main span.a5 {
+  font-family: 'Droid Serif', serif; font-weight: 700;
+}
+
+#main span.partner {
+  font-family: 'Droid Serif';
+  font-style: italic;
+  font-weight: 400;
+}
+
+/***********************/
+/*                     */
+/*    About section    */
+/*                     */
+/***********************/
+
+.about-section {
+  width:100%;
+}
+
+.financing-box {
+  padding: 30px 0;
+  border: 3px solid #000;
+  box-shadow: 7px 7px 12px #ccc;
+}
+
+.financing-box > p {
+  text-align: center;
+}
+
+.financing-box > #about-a5 {
+  font-family: 'Asap', sans-serif; font-weight: 400;
+  font-size: 26px;
+  padding: 0 80px;
+}
+
+.financing-box > #based-in {
+  font-family: 'Asap', sans-serif; font-weight: 400;
+  font-size: 22px;
+}
+
+.financing-box > ul {
+  padding-left: 0;
+  list-style-type: none;
+  text-align:center;
+}
+
+.financing-box > ul > li {
+  font-family: 'Ubuntu', sans-serif; font-weight: 500;
+  color: #104e8b;
+  text-shadow: 1px 1px 2px #ccc;
+  font-size: 22px;
+}
+
+/***********************/
+/*                     */
+/* Investment approach */
+/*                     */
+/***********************/
+
+#investment-approach {
+  background: white;
+}
+
+#investment-approach h2 {
+  font-family: 'Ubuntu', sans-serif; font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.investment-approach {
+  border: 1px solid black;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  background: #cbc9ca;
+}
+
+.investment-approach:hover {
+  border: 1px solid #60affe;
+  box-shadow: 0px 0px 10px #ccc;
+}
+
+.investment-approach:hover > h4 {
+  color: #60affe;
+}
+
+.investment-approach h4 {
+  font-family: 'Ubuntu', sans-serif; font-weight: 500;
+  padding-top: 20px;
+}
+
+.investment-approach p {
+  font-family: 'Asap', sans-serif; font-weight: 400;
+  font-size: 14px;
+}
+
+/***********************/
+/*                     */
+/*        Team         */
+/*                     */
+/***********************/
+#team {
+}
+
+#team h2 {
+  font-family: 'Ubuntu', sans-serif; font-weight: 500;
+}
+
+#team h2.name {
+  font-family: 'Droid Serif', serif; font-weight: 400;
+}
+
+#team h4 {
+  color: #60affe;
+  font-family: 'Droid Serif', serif; font-weight: 400; font-style: italic;
+}
+
+#team p {
+  font-size: 16px;
+  font-family: 'Asap', sans-serif; font-weight: 400;
+}
+
+
+/***********************/
+/*                     */
+/*        GMaps        */
+/*                     */
+/***********************/
+#map {
+  background: #60affe url("../images/bluemap.jpg") center;
+  height: 500px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 0 !important;
+}
+
+
+/***********************/
+/*                     */
+/*        Footer       */
+/*                     */
+/***********************/
+
+#footer {
+  background-color: #2d2d2d;
+}
+
+#footer .right-border {
+  border-right: 1px solid #60affe;
+  margin-right: 20px;
+}
+
+#footer h4 {
+  font-family: 'Ubuntu', sans-serif; font-weight: 400;
+  color: #eee;
+  font-size: 22px;
+}
+
+#footer h4:hover {
+  color: #60affe;
+}
+
+#footer h4 a {
+  color: white;
+}
+
+#footer p {
+  color: #cbc9ca;
+  font-family: 'Asap', sans-serif; font-weight: 400;
+  font-size: 14px;
+}
+
+#footer .social-icon {
+  display: inline;
+  margin-right: 8px;
+  font-size: 24px;
+}
+
+/***********************/
+/*                     */
+/*        @media       */
+/*                     */
+/***********************/
+
+@media screen and (max-width: 768px) {
+  #main > #main-text h1 {
+    font-size: 46px;
+  }
+
+  .financing-box > #about-a5 {
+    font-size: 20px;
+    padding: 0 20px;
+  }
+
+  .financing-box > #based-in {
+    font-size: 18px;
+    padding: 0 40px;
+  }
+
+  .financing-box > ul {
+    list-style-type: none;
+    text-align:center;
+    padding: 0 20px;
+  }
+
+  .jumbotron {
+    margin-bottom: 0;
+  }
+
+  #footer .right-border {
+    border-right: none;
+  }
+
+}
+
+
+@media screen and (min-width: 768px) {
+  .jumbotron {
+    margin-bottom: 0;
+  }
+
+  .investment-approach {
+    max-height: 280px;
+  }
+
+}
+
+
+@media screen and (min-width: 992px) {
+  .investment-approach {
+    min-height: 260px;
+  }
+
+}
